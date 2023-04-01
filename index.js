@@ -9,6 +9,4 @@ const Account = require("./accounting.js");
 
 const myAccount = new Account("Mert");
 myAccount.credit(150);
-
-console.log("Owner: " + myAccount.myOwnerName());
-console.log("Balance: " + myAccount.myOwnerBalance());
+console.log(myAccount.describe());
